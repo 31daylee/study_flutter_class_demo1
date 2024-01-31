@@ -7,7 +7,7 @@ void main(){
 
   // 변수에 할당하지 않고 바로 익명 함수를 호출 하는 것은 dart에서는 불가능
 
-  // 2단계: 함수를 변수에 담을 수 있다(dart는 일급 객체를 지우너)
+  // 2단계: 함수를 변수에 담을 수 있다(dart는 일급 객체를 지원)
   int Function(int) square = (int number){
     return number * number;
   };
